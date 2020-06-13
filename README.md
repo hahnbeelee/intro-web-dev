@@ -46,5 +46,5 @@ Project 4 was a group project. This project was a chance for me to get some real
 - Learn to balance client requirements with good design and meeting the needs of the client's target audience.
 - Increase your self assessment skills to evaluate your own work; evaluate your work to determine if you've met client and project requirements.
 - Improving your teamwork skills to help you prepare for work outside of school.
-### Credits
+#### Credits
 Hahnbee Lee, Kimberly Baum, Chloe Kuo, and Adomas Hassan all equally contributed to the project.
