@@ -1,0 +1,23 @@
+"*":
+  core:
+    disabledPackages: [
+      "autocomplete-plus"
+      "linter"
+      "php-server"
+      "cornell-info2300"
+    ]
+  editor:
+    autoIndent: false
+    autoIndentOnPaste: false
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+  "atom-ide-ui":
+    "atom-ide-code-format":
+      formatOnType: false
+  "color-picker":
+    preferredFormat: "HEX"
+  "cornell-info1300": {}
+  "tree-view":
+    autoReveal: true
+    hideVcsIgnoredFiles: false

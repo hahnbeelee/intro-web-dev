@@ -1,0 +1,157 @@
+/*navigation*/
+nav ul {
+  margin: 5px 0px 5px 0px;
+  padding: 0px 5px 0px 0px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 0px 10px 8px;
+  border-style: solid;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+/*body and headers*/
+body {
+  background-color: #CDA34F;
+}
+
+h1 {
+  color: #E9E7DA;
+  font-family: Georgia;
+  background-color: #636B46;
+  padding: 20px 5px 15px 20px;
+  border-style: outset;
+}
+
+h2 {
+  color: #E9E7DA;
+  background-color: #373F27;
+  font-family: Georgia;
+  font-size: 25px;
+  padding: 20px 10px 10px 10px;
+  border-style: outset;
+  border-color: #A9A9A9;
+}
+
+h3{
+  color: #373F27;
+  background-color:  #E9E7DA;
+  margin: 0px;
+  padding: 10px 10px 10px 10px;
+}
+
+h4{
+  color: #373F27;
+  background-color:  #E9E7DA;
+  margin: 0px;
+  padding: 10px 10px 10px 10px;
+}
+
+/*small formatting issues & coloring*/
+p {
+  color: #373F27;
+  background-color:  #E9E7DA;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px 5px 20px 10px;
+  margin: 0px;
+}
+
+li {
+  color: #373F27;
+  background-color:  #E9E7DA;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+strong {
+color: #373F27;
+}
+
+ul{
+  background-color:#E9E7DA;
+  padding: 20px 10px 20px 30px;
+  margin: 0px 0px 0px 0px;
+}
+
+/*links*/
+a:hover{
+  color:#CDA34F;
+}
+
+a{
+  color:#c45747;
+}
+
+/*image captions*/
+figcaption p{
+  margin: 13px;
+  padding: 10px;
+}
+
+figcaption{
+  text-align: center;
+}
+
+/*resume page edits*/
+.resume{
+  margin: 10px 0px 10px 0px;
+}
+
+.main{
+  background-color: #636B46;
+  padding: 10px 10px 10px 10px;
+}
+
+.science-fair{
+  margin: 0px 0px 0px 0px;
+}
+
+/*photography page edits*/
+#photo-copyright{
+  background-color: none;
+}
+
+#photography{
+  background-color: #373F27;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*top of resume */
+.contact-info{
+  display: flex;
+  flex-direction: row;
+
+  color: #E9E7DA;
+  background-color: #373F27;
+  border-style: outset;
+  border-color: #A9A9A9;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+}
+
+.contact-element{
+  padding: 0px;
+  margin: 5px;
+  flex-grow: 1;
+  color: #E9E7DA;
+  background-color: #373F27;
+}
+
+.contact{
+  font-family: Georgia;
+  font-size: 25px;
+  color: #E9E7DA;
+  background-color: #373F27;
+}
