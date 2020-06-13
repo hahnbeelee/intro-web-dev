@@ -1,0 +1,126 @@
+#contact-pg{
+  text-align: left;
+}
+
+#thankYou{
+  margin-top: 25px;
+}
+
+/* Contact Form Start */
+
+#contactForm{
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  background-color: #c4c4c4;
+  margin: 0 auto;
+  padding: 15px 0px;
+  text-align: left;
+}
+
+#contactForm div{
+  margin: 5px 0px;
+}
+
+#contactForm label{
+  display: inline-block;
+  text-align: left;
+  font-size: 18px;
+  width: 150px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+#contactForm select{
+  width: 150px;
+  height: 25px;
+}
+
+#contactForm input{
+  width: 150px;
+}
+
+input{
+  height: 25px;
+}
+
+#contactForm span{
+  display: inline-block;
+  text-align: left;
+}
+
+#contactForm button{
+  width: 100px;
+  align-self: center;
+  margin-top: 5px;
+  height: 25px;
+}
+
+#userDesc{
+  height: 100px;
+}
+
+
+/* Contact Form End */
+
+/* Mobile Styling */
+
+@media only screen and (max-width: 600px){
+
+  figure {
+    text-align: center;
+    width: auto;
+  }
+
+  .content {
+    margin: .5em;
+  }
+  /* Contact Form Start */
+  #contactForm{
+    border: None;
+  }
+
+  #contactForm input{
+    font-size: 20px;
+    width: 175px;
+    height: 25px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  #contactReason {
+    margin-left: 10px;
+  }
+
+  #contactForm label{
+    display: inline-block;
+    width: 175px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  #contactForm select{
+    width: 175px;
+    height: 25px;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+
+  #contactForm span{
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  #contactForm button{
+    width: 175px;
+    height: 50px;
+
+    margin-top: 10px;
+    align-self: center;
+    font-size: 20px;
+  }
+  /* Contact Form End */
+}

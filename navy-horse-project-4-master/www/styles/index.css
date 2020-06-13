@@ -1,0 +1,79 @@
+
+main {
+  width: auto;
+}
+
+/* slideshow styling */
+/* Source: Lab 12*/
+.slideshow{
+  width: 500px;
+  margin: 50px auto 0px auto;
+}
+
+.slideshow h2{
+  text-align: center;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.slideshowImageHolder {
+  width: 500px;
+  margin: 0px auto;
+}
+
+.slideshowButtonHolder{
+  height: 50px;
+  width: auto;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.slideshowNextButton{
+  width: 60px;
+  text-align: center;
+  padding: 10px;
+  border: 1px black solid;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto
+}
+
+#slideshowImage{
+  max-width: 500px;
+  height: 30vw;
+  width: auto;
+}
+/* styling for slideshow end */
+
+
+@media (min-width : 0px) and (max-width : 600px){
+
+  .slideshowImageHolder {
+    width: 95%;
+    padding-top: 15px;
+  }
+  #slideshowImage {
+    height: 50vw;
+    width: 50vw;
+  }
+
+  .slideshowImageHolder {
+    margin: auto;
+  }
+  .slideshow {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+  }
+  .slideshowButtonHolder {
+    width: 50%;
+    margin:auto;
+    text-align: center;
+  }
+
+  p {
+    margin: .5em;
+  }
+}

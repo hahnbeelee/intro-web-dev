@@ -1,0 +1,175 @@
+p {
+  margin: .5em;
+}
+
+.art_categories ul{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  margin: auto auto 40px auto;
+  text-align: center;
+  padding: 30px 0 0 0px;
+  max-width: 1000px;
+}
+
+.art_categories ul li {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  width: 25vw;
+  height: 17vw;
+  text-align: center;
+  margin: auto;
+  height: auto;
+}
+
+.art_categories ul li button{
+  width: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  background: white;
+  padding: 0px;
+  border: none;
+}
+
+ul li button span {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding: 4px 0px;
+  margin: 0px;
+  border-top: 1px solid black;
+  background-color: transparent;
+}
+
+/* button backgrounds */
+.art_categories button img{
+  width: 100%;
+  height: auto;
+  max-width: 175px;
+  max-height: 175px;
+  display:flex;
+  text-align: center;
+  margin: auto;
+  padding: 0px;
+  opacity: 0.6;
+}
+
+button {
+  cursor: pointer;
+  transition-property: background-color, color;
+  transition-duration: .7s;
+  color: black;
+}
+
+/* keyframe hover animations */
+
+button:hover {
+  background-color: black !important;
+  color: white;
+}
+
+/* class added to change color of button for selected artwork category */
+.button_selected {
+  background-color: #000000 !important;
+  color: white;
+}
+
+/* artwork image container styling */
+
+.artwork_container {
+  margin: auto;
+  text-align: center;
+  padding: 12px;
+  width: auto;
+}
+
+.art_image_styling {
+  display: flex;
+  margin: auto 1vw;
+  padding: .5px;
+  width: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+  color: transparent;
+}
+
+.art_image_styling div{
+  width: auto;
+  height: auto;
+  color: transparent;
+  transition-property: color;
+  transition-duration: .2s;
+  padding: 5px;
+}
+
+/* text overlays for hover on forsale art */
+
+span.tags {
+  text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -55%;
+  margin-bottom: 47%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1em;
+  word-wrap: break-word;
+  height: auto;
+  width: auto;
+}
+
+.art_image_styling div img{
+  width: 24vw;
+  height: 24vw;
+  transition-property: opacity;
+  transition-duration: .2s;
+}
+
+.art_image_styling div:hover{
+  color: black;
+}
+
+.art_image_styling div:hover img{
+  opacity: 0.15;
+}
+
+
+/* mobile spacing adjustments */
+
+@media (min-width : 0px) and (max-width : 600px){
+
+  .art_image_styling div img{
+    width: 100%;
+    height: 30vh;
+    margin: 0px;
+  }
+
+  .art_image_styling div {
+    padding: 0px;
+    margin-bottom: 20px;
+    height: auto;
+  }
+
+  .art_categories ul li img{
+    width: 100%;
+  }
+  .art_categories ul li {
+    word-wrap: break-word;
+    width: 30%;
+    font-size: .7em;
+  }
+
+  span.tags {
+    font-size: 1em;
+    margin-top: -16vh;
+    margin-bottom: 13vh;
+  }
+}

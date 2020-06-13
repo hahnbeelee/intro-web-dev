@@ -1,0 +1,123 @@
+<!DOCTYPE	html>
+<html	lang="en">
+
+<head>
+  <meta	charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Contact - Rebecca Bell Designs</title>
+  <link rel="stylesheet" type="text/css" href="styles/all.css" />
+  <link rel="stylesheet" type="text/css" href="styles/contact.css" />
+  <script src="scripts/jquery-3.3.1.min.js" type="text/javascript"></script>
+  <script src="scripts/validation.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <nav>
+    <ul class = "navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="artwork.html">Artwork</a></li>
+      <li><a href="experience.html">Testimonials</a></li>
+      <li><a href="contact.html"><div class="currentpage">Contact</div></a></li>
+    </ul>
+  </nav>
+  <!-- Background Photo Container -->
+  <div class = "container" >
+
+    <header>
+      <figure>
+        <!--Page Logo is Original Content Created by Team Navy Horse-->
+        <img class = "page_logo" src="images/content/logo2.png" alt="logo">
+        <!--Page Logo is Original Content Created by Team Navy Horse-->
+      </figure>
+    </header>
+
+    <div class = "content">
+      <section>
+
+        <p>
+          Would you like to purchase a piece or request a design? Perhaps repost our art pieces, or collaborate? Please fill out this form with your details, leave a short description, and we will respond to your inquires.
+        </p>
+
+        <h1 id = "formHeading">ask us anything!</h1>
+
+        <form id="contactForm" method="post" action="https://www.cs.cornell.edu/courses/cs1300/2018fa/submit.php" novalidate>
+
+          <div>
+            <label for="firstName">First Name: </label>
+            <input id="firstName" type = "text" pattern= "[a-zA-Z]+" name="firstName" placeholder="First Name" maxlength="25" required/>
+            <span class = "errorContainer hidden" id = "firstNameError">
+              | Please enter an alphabetic first name.
+            </span>
+          </div>
+
+          <div>
+            <label for="lastName">Last Name: </label>
+            <input id="lastName" type = "text" pattern= "[a-zA-Z]+" name="lastName" placeholder="Last Name" maxlength="25" required/>
+            <span class = "errorContainer hidden" id = "lastNameError">
+              | Please enter an alphabetic last name.
+            </span>
+          </div>
+
+          <div>
+            <label for="userEmail">Your Email: </label>
+            <input type="email" id="userEmail" name="userEmail" placeholder="Your Email" maxlength="75" required/>
+            <span class = "errorContainer hidden" id = "userEmailErrorValid">
+              | A valid email is required.
+            </span>
+            <span class = "errorContainer hidden" id = "userEmailErrorRequired">
+              | An email is required.
+            </span>
+          </div>
+
+          <div>
+            <label for="userPhone">Your Phone: </label>
+            <input type="tel" id="userPhone" name="userPhone" placeholder="(optional)" maxlength="25"/>
+            <span class = "errorContainer hidden" id = "userPhoneError">
+              | Phone number not valid.
+            </span>
+          </div>
+
+          <div>
+            <label for="contactReason">Contact Reason: </label>
+            <select id="contactReason" name="contactReason">
+              <option value="purchase">Purchase</option>
+              <option value="request">Request</option>
+              <option value="collaborate">Collaborate</option>
+              <option value="display">Display</option>
+              <option value="copyright_use">Copyright/User</option>
+              <option value="question">Question</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="userDesc">Description: </label>
+            <input type="text" id="userDesc" name="userDesc" placeholder="Max 500 chars." minlength = "20" maxlength="500" required/>
+            <span class = "errorContainer hidden" id = "userDescError">
+              | Please enter a description of at least 20 characters.
+            </span>
+          </div>
+
+          <button type="submit" class="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+
+    <div id = "thankYou" class = "content">
+      <p>
+        Please allow 2-3 days for us to get back to you-- we'll be reaching out to the email that you have listed or may call for urgent matters. Thank you!
+      </p>
+    </div>
+
+    <p class = "citation">
+      <!--
+      Insert link for Background
+      Background Source: <a href="link here">Image</a>
+      -->
+    </p>
+
+    <p class="citation">Logo: original creation by group member Chloe Kuo</p>
+
+  </div>
+</body>
